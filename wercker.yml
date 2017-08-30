@@ -18,7 +18,7 @@ push:
 restart-occs:
   steps:
     - peternagy/oracle-occs-container-util:
-        occs_username: $OCCS_USERNAME
+        occs_user: $OCCS_USERNAME
         occs_password: $OCCS_PASSWORD
         rest_server_url: $REST_SERVER_URL
         function: $FUNCTION
